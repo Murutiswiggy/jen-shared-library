@@ -30,7 +30,7 @@ def call (Map configMap){
             def env_ISSUE_KEY = ""
             def env_VERSION = ""
             def env_CR_NUMBER = ""
-            acc_id = "160885265516"
+            acc_id = "308281189037"
             project = configMap.get("project")
             component = configMap.get("component")
             org = "90s-org"
