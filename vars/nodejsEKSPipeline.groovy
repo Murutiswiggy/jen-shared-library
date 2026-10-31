@@ -2,12 +2,12 @@ def call (Map configMap){
     pipeline {
         agent { 
             node { 
-                label 'ROBOSHOP' 
+                label 'ROBO' 
             } 
         }
         environment {
             def appVersion = ""
-            acc_id = "160885265516"
+            acc_id = "308281189037"
             project = configMap.get("project")
             component = configMap.get("component")
             org = "daws-90s"
